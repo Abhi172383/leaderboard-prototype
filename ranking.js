@@ -1,4 +1,5 @@
 
+// Updated leaderboard ranking prototype
 function rankScores(players) {
     // Validate player data
     for (const player of players) {
