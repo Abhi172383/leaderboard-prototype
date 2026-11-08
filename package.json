@@ -1,0 +1,10 @@
+
+{
+  "name": "leaderboard-prototype",
+  "version": "1.0.0",
+  "description": "Game leaderboard ranking prototype",
+  "main": "ranking.js",
+  "scripts": {
+    "test": "node ranking.test.js"
+  }
+}
