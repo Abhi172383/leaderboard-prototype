@@ -39,3 +39,4 @@ const players = [
 ];
 
 console.log(rankScores(players));
+// Jenkins automatic build test
