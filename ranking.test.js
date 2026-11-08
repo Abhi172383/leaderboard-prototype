@@ -126,3 +126,7 @@ console.log(`\nPassed: ${passed}/${tests.length}`);
 console.log(
     `Test execution pass rate: ${(passed / tests.length) * 100}%`
 );
+
+if (passed !== tests.length) {
+    process.exitCode = 1;
+}

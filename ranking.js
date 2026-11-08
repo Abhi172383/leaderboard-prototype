@@ -1,4 +1,5 @@
 
+// Updated leaderboard ranking prototype
 function rankScores(players) {
     // Validate player data
     for (const player of players) {
@@ -38,3 +39,4 @@ const players = [
 ];
 
 console.log(rankScores(players));
+// Jenkins automatic build test
