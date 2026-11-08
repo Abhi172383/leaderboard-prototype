@@ -31,5 +31,12 @@ pipeline {
                 sh 'npm test'
             }
         }
+
+stage('Intentional Failure Test') {
+    steps {
+        sh 'exit 1'
+    }
+}
+
     }
 }
